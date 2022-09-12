@@ -435,4 +435,3 @@ metatable.__namecall = newcclosure(function(self, ...)
     end
     return namecall(self, ...)
 end)
-setreadonly(metatable, true)
